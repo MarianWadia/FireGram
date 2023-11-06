@@ -4,9 +4,9 @@ import { database, storage } from '../config/firebase';
 import { deleteObject, ref } from 'firebase/storage';
 import {motion} from "framer-motion"
 
-const Modal = ({selectedImg, setSelectedImg, selectedImgId, fileUpload}) => {
+const Modal = ({selectedImg, setSelectedImg, selectedImgId, fileUpload, selectedImgName}) => {
   const documentRef = doc(database, 'Images', selectedImgId)
-  const imageRef = ref(storage, `images/${fileUpload?.name}`)
+  const imageRef = ref(storage, `images/${selectedImgName}`)
 
 
   const closeModal=(e)=>{

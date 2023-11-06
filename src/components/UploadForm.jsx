@@ -8,7 +8,7 @@ const UploadForm = ({fileUpload, setFileUpload}) => {
     
     const onFileUpload = (e) => {
         const fileUploaded = e.target.files[0];
-        if(fileUploaded!==null && allowedFiles.includes(fileUploaded.type)){
+        if(fileUploaded!==null && allowedFiles.includes(fileUploaded?.type)){
             setFileUpload(fileUploaded);
             setError(null);
         }else{

@@ -5,12 +5,12 @@ import {getFirestore} from "firebase/firestore"
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAY2AOutOs9fr2aneKzEJRzbZ9tD5fx1tQ",
-  authDomain: "fireimages-23d00.firebaseapp.com",
-  projectId: "fireimages-23d00",
-  storageBucket: "fireimages-23d00.appspot.com",
-  messagingSenderId: "58729666711",
-  appId: "1:58729666711:web:c4f52e413067ee5516f1d2"
+  apiKey: "AIzaSyCzkBZzHYkgzMqCyGK8tbYQGAZqwBfbqB0",
+  authDomain: "galleryapp-65683.firebaseapp.com",
+  projectId: "galleryapp-65683",
+  storageBucket: "galleryapp-65683.appspot.com",
+  messagingSenderId: "136353110879",
+  appId: "1:136353110879:web:7f7f68a9813d47f4e8f4ea"
 };
 
 // Initialize Firebase
